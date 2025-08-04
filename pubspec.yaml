@@ -1,0 +1,16 @@
+name: odata_gen
+description: "Odata client generator for Dart and Flutter"
+version: 0.0.1
+homepage:
+publish_to: "none"
+
+environment:
+    sdk: ^3.6.0
+
+dependencies:
+    args: ^2.7.0
+
+dev_dependencies:
+
+executable:
+    odata_gen: bin/odata_gen.dart
